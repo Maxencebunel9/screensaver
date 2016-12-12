@@ -1,0 +1,19 @@
+#include <stdio.h>
+ 
+int main()
+{
+  int L, l, i, j;
+  printf("longueur\n");
+  scanf("%d", &L);
+  printf("largeur\n");
+  scanf("%d", &l);
+  for (j = 0; j < l ; j++)
+  {
+    for (i = 0; i < L ; i++)
+    {
+      printf("*");
+    }
+  printf("\n");
+  }
+  return 0;
+}
